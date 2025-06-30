@@ -39,13 +39,30 @@ body{
     backface-visibility: hidden;
   }
 
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px; /* Gives the 3D effect */
+  }
+
   .flip-card-front {
     background-color: #bbb;
     color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
   }
 
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: rgb(214, 214, 214);
+    color: rgb(26, 26, 26);
     transform: rotateY(180deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
   }
+
+ 
