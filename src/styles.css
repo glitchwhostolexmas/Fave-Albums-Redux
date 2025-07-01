@@ -65,4 +65,34 @@ body{
     border-radius: 5px;
   }
 
+  .little-title {
+    text-align: center;
+    font-size: .60rem;
+  }
  
+  a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+    margin-right: 4px;
+    width: 55%;
+    position: absolute;
+    left: 15;
+    right: 5px;
+    bottom: 15px;
+}
+
+.body {
+  background-color: #F5F5F7;
+}
+
+p {
+  height: 100px;
+  line-height: 20px;
+  text-align: center;
+  border: 5px;
+  margin: 10px;
+}
